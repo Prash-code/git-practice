@@ -1,0 +1,6 @@
+resource "aws_instance" "mumbai-1" {
+ ami = "ami-022ce6f32988af5fa"
+ key_name = "thor123"
+ instance_type = "t2.micro"
+ tags = {
+   name= "mumbai"
